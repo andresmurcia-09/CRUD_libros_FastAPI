@@ -1,0 +1,72 @@
+# Ignorar archivos .env que contienen credenciales
+.env
+
+# Archivos de logs
+*.log
+*.out
+*.err
+
+# Archivos de base de datos
+*.db
+*.sqlite3
+
+# Archivos temporales de editor
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Directorios y archivos de entorno virtual de Python
+venv/
+.env/
+__pycache__/
+
+# Archivos de compilación de Python
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos generados por el sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de distribución
+*.tar.gz
+*.zip
+*.egg
+*.egg-info
+dist/
+build/
+
+# Archivos de documentación de Python
+*.rst
+*.md
+
+# Archivos de configuración específicos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de proyectos de Jupyter Notebooks
+.ipynb_checkpoints
+
+# Ignorar todos los archivos .txt, .pdf y similares
+*.txt
+*.pdf
+*.csv
+*.tsv
+
+# Ignorar archivos de compilación de Cython
+*.c
+*.so
+
+# Otros archivos temporales o generados
+*.bak
+*.old
+*.orig
+*.rej
