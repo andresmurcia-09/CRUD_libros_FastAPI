@@ -1,7 +1,8 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from models import Base, Libro
+from fastapi import Depends
 from pydantic import BaseModel
 
 # Configuración de la base de datos
